@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Form</title>
+    <style>
+      body{
+        height: 100vh;
+        width: 100vw;
+        display: grid;
+        place-items: center;
+      }
+     .box{
+      height: 450px;
+      width: 300px;
+      border: 1px solid black;
+background-color: azure;
+padding: 20px;
+     }
+    </style>
+  </head>
+  <body style="font-family: sans-serif;">
+    <h1>HA5h7ag.<i style="color: rgb(140, 0, 255);">Org</i> </h1>
+    
+    
+    <div  class="container">
+    <div class="box" >
+    
+      <center><h1>Sign In </h1></center>
+      <hr>
+      <br>
+      <b>
+     <label style="font-size: 13px;" for="name">Your name</label>
+      </b>
+      <form target="_blank" action="/">
+        <input id="name" type="text" name="a" placeholder="First and Last Name" required>
+        <br>
+        <br>
+        <b>
+     <label style="font-size: 13px;" for="email">Email</label>
+     <br>
+        </b>
+      <form target="_blank" action="/">
+        <input id="email" type="email" name="b" placeholder="Email Address" required>
+        <br>
+        <br>
+        <b>
+     <label style="font-size: 13px;" for="password">Password</label>
+      <div target="_blank" action="/" >
+        <input id="password"  type="password" name="b" placeholder="At least 6 characters" minlength="6" required>
+        <br>
+      </b>
+        <style>
+span { font-size: 12px;}
+
+        </style>
+        <span>passwords must be atleast 6 characters </span>
+        <br>
+        <br>
+        <b>
+     <label style="font-size: 13px;" for="number">Mobile Number</label>
+     <br>
+     
+        </b>
+      <form target="_blank" action="/">
+        <span style=" padding: 2px; margin-right: 10px; border: 1px solid rgba(0, 0, 0, 0.466);"><b>IN +91</b> </span><input id="number"  type="tel" name="c" placeholder="Mobile Number" required>
+        <br>
+        <br>
+        <form  action="/"> 
+          <b>
+          <div style="font-size: 13px;">I agree to all terms and conditions
+          <input type="checkbox" required></div>
+        </b>
+        </form>
+
+        <br>
+        <br>
+        <button style="background-color: red;" type="reset">Reset</button>
+        
+        <button formaction="/about.html" style="background-color: blueviolet;">Submit</button>
+      </form>
+    </div>
+    </div>
+  </body>
+</html>
